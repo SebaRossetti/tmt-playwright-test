@@ -1,0 +1,23 @@
+{
+  "name": "tmt-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke",
+    "accessibility": "npx playwright test --grep @accessibility"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.7.3",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.4",
+    "axe-html-reporter": "^2.2.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
